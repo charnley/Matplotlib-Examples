@@ -14,7 +14,7 @@ f, ax = plt.subplots()
 ax.plot(X,Y)
 ax.plot(X,Y1)
 
-ax.annotate("$\pi - x$",
+ax.annotate("$y(x)=\pi - x$",
             xy=(2*numpy.pi/3, numpy.pi/3), xycoords='data',
             xytext=(+30,+10), textcoords='offset points',
             arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0.2'))
